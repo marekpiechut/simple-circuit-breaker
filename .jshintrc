@@ -1,13 +1,13 @@
 {
 	"esversion": 6,
-  "browser": true,
+	"browser": true,
 	"asi": true,
 	"nonew": true,
 	"quotmark": "single",
-  "undef": true,
-  "unused": true,
-  "globals": {
-  	"module": false,
-  	"define": false
-  }
+	"undef": true,
+	"unused": true,
+	"globals": {
+		"module": false,
+		"define": false
+	}
 }

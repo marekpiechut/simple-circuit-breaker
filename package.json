@@ -1,26 +1,26 @@
 {
-  "name": "simple-circuit-breaker",
-  "version": "1.0.0",
-  "description": "Simple circuit breaker in plain ES6 for functions returning Promises. No dependencies, configurable grace period, threshold and error message.",
-  "main": "simple-circuit-breaker.js",
-  "scripts": {
-    "test": "jasmine test.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/marekpiechut/simple-circuit-breaker.git"
-  },
-  "keywords": [
-    "circuit",
-    "breaker",
-    "promise",
-    "error",
-    "handling"
-  ],
-  "author": "Marek Piechut <marek.piechut@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/marekpiechut/simple-circuit-breaker/issues"
-  },
-  "homepage": "https://github.com/marekpiechut/simple-circuit-breaker#readme"
+	"name": "simple-circuit-breaker",
+	"version": "1.0.0",
+	"description": "Simple circuit breaker in plain ES6 for functions returning Promises. No dependencies, configurable grace period, threshold and error message.",
+	"main": "simple-circuit-breaker.js",
+	"scripts": {
+		"test": "jasmine test.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/marekpiechut/simple-circuit-breaker.git"
+	},
+	"keywords": [
+		"circuit",
+		"breaker",
+		"promise",
+		"error",
+		"handling"
+	],
+	"author": "Marek Piechut <marek.piechut@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/marekpiechut/simple-circuit-breaker/issues"
+	},
+	"homepage": "https://github.com/marekpiechut/simple-circuit-breaker#readme"
 }
