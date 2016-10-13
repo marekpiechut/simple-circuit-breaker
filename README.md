@@ -29,8 +29,8 @@ withCircuitBreaker('http://my.backend.com')
 *Parameters*
 
 1. asyncFn - Function that we want to guard with circuit breaker **Must return a `Promise`** 
-2. gracePeriodMs - How long do we wait before retrying after switched to **CLOSED** state
-3. threshold - How many failures do we need to stop calling backend and start failing immediately - **HALF OPEN**
+2. gracePeriodMs - How long do we wait before retrying after switched to **OPEN** state
+3. threshold - How many failures do we need to stop calling backend and start failing immediately
 4. message - This will be the error message in **OPEN** state
 
 ```javascript
